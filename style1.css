@@ -1,0 +1,100 @@
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.content{
+    align-content: center;
+    background-color:lightblue;
+    height: 100%;
+    width: 100%;
+    border: 7px solid rgb(103, 155, 232);
+   
+    
+}
+.sectiontop{
+    display:flex;
+    flex: row;
+   
+    gap:150px;
+    margin-top: 80px;
+
+    
+}
+
+.sectiontop img{
+    width:300px;
+    height: 400px;
+    align-items:center;   
+
+}
+img{
+    border-radius:56vh;
+    border-style:groove;
+    position: relative;
+    left:350px
+/* jbb mene position ko absolute kiya tha to wo beech m aa gya tha kyon? */
+}
+.sectiontop h1 h2{
+    text-transform: uppercase;
+    text-align: end;
+    /* margin-top: 100%; */
+    position:absolute;
+    top:5000px;
+    gap:4px;
+
+}
+.hemant{
+    position:absolute;
+    top:390px;
+    left:750px;
+    font-size: 25px;
+}
+.hemant h2{
+    position:relative;
+ left:223px;
+ font-size: 20px;
+ 
+}
+.middle{
+    display:flex;
+    justify-content: center;
+    text-align:justify;
+    margin-right: 50px;
+    margin-left:50px;
+    margin-top:50px;
+}
+.middle h1{
+    font-size:45px;
+}
+.middle p {
+    font-size: 25px;
+    line-height: 40px;
+}
+.lower{
+    display:flex;
+    justify-content:left;
+    margin-left: 65px;
+    margin-top: 30px;   
+}
+.bio h1
+ {
+  font-size:xx-large;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left:-21px;
+ 
+ }
+.bio ul
+{
+    font-size:25px;
+
+}
+.end{
+    display:flex;
+    justify-content:end;
+    margin-right:40px;
+    margin-top: 40px;;
+}
